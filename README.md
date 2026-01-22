@@ -1,14 +1,15 @@
 # college-whatsapp-notification-automation
 An n8n-based automation to categorize college WhatsApp messages into Holidays, Jobs, Class Schedules, and General updates.
 
-#College WhatsApp Notification Automation (n8n)
-#🧠 Problem Statement
+# College WhatsApp Notification Automation (n8n)
+
+# 🧠 Problem Statement
 College WhatsApp groups generate a high volume of messages daily. Important updates related to holidays, placements, and class schedule changes often get missed.
 
-#💡 Solution
+# 💡 Solution
 This project uses n8n workflow automation to automatically read incoming WhatsApp messages, analyze their content, categorize them, and store them in Google Sheets for easy access.
 
-🔄 Workflow Logic
+# 🔄 Workflow Logic
 
 WhatsApp Trigger
    ↓
@@ -25,13 +26,12 @@ ELSE
       ELSE
          → Google Sheet: General
          
-🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 n8n (Workflow Automation)
-
 WhatsApp Business Cloud API
 Google Sheets
 Conditional Logic (IF nodes)
 
-👩‍💻 Author
+# 👩‍💻 Author
 Rabiya Tahseen
 B.Tech CSE Student
