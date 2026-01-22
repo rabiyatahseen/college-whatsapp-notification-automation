@@ -1,9 +1,9 @@
 # college-whatsapp-notification-automation
 An n8n-based automation to categorize college WhatsApp messages into Holidays, Jobs, Class Schedules, and General updates.
 
-#📌 College WhatsApp Notification Automation using n8n
+# 📌 College WhatsApp Notification Automation using n8n
 
-#🔍 Overview
+# 🔍 Overview
 
 College communication heavily relies on WhatsApp groups for announcements related to holidays, placements, class schedules, and general updates. However, due to the high volume of daily messages, students often miss critical information.
 
@@ -11,7 +11,7 @@ This project proposes an automation-based solution using n8n that reads incoming
 
 
 
-❗ Problem Statement
+# ❗ Problem Statement
 
 College WhatsApp groups generate hundreds of messages
 
@@ -23,7 +23,7 @@ No centralized, categorized view of information exists
 
 
 
-💡 Proposed Solution
+# 💡 Proposed Solution
 
 This project builds an automated message classification system that:
 
@@ -48,9 +48,9 @@ Enables students to quickly view only relevant updates
 
 
 
----
 
-⚙️ System Architecture
+
+# ⚙️ System Architecture
 
 WhatsApp Business Cloud
         ↓
@@ -66,9 +66,9 @@ WhatsApp Business Cloud
  └───────────┴───────────┴──────────────┴───────────┘
 
 
----
 
-🔄 Workflow Logic
+
+# 🔄 Workflow Logic
 
 WhatsApp Trigger
    ↓
@@ -86,9 +86,9 @@ ELSE
          → Google Sheet: General
 
 
----
 
-🧠 Key Features
+
+# 🧠 Key Features
 
 📩 Automatic message ingestion
 
@@ -104,9 +104,9 @@ ELSE
 
 
 
----
 
-🛠️ Technology Stack
+
+# 🛠️ Technology Stack
 
 n8n – Workflow automation platform
 
@@ -118,9 +118,9 @@ Conditional Logic (IF nodes) – Classification
 
 
 
----
 
-📊 Google Sheets Data Structure
+
+# 📊 Google Sheets Data Structure
 
 Each sheet follows the same structure:
 
@@ -141,9 +141,9 @@ General
 
 
 
----
 
-📂 Repository Structure
+
+# 📂 Repository Structure
 
 college-whatsapp-notification-automation/
 │
@@ -154,9 +154,9 @@ college-whatsapp-notification-automation/
 │   └── n8n-workflow.json (placeholder)
 
 
----
 
-🚧 Current Status
+
+# 🚧 Current Status
 
 ✅ Workflow logic completed
 
@@ -164,17 +164,14 @@ college-whatsapp-notification-automation/
 
 ✅ Google Sheets integration working
 
-⚠️ WhatsApp Business Cloud reconnection pending due to Meta security cooldown (temporary)
-
-
 > No sensitive credentials or phone numbers are included in this repository.
 
 
 
 
----
 
-🚀 Future Enhancements
+
+# 🚀 Future Enhancements
 
 🤖 AI-based text classification (NLP)
 
@@ -188,9 +185,9 @@ college-whatsapp-notification-automation/
 
 
 
----
 
-🎓 Academic Relevance
+
+# 🎓 Academic Relevance
 
 This project demonstrates:
 
@@ -206,23 +203,20 @@ Scalable system design
 
 
 
----
 
-👩‍💻 Author
+
+# 👩‍💻 Author
 
 Rabiya Tahseen
 B.Tech – Computer Science & Engineering
 
 
----
 
-📜 Disclaimer
+
+# 📜 Disclaimer
 
 This project is developed for educational purposes only.
 WhatsApp Business Cloud access is subject to Meta platform policies.
 Google Sheets
 Conditional Logic (IF nodes)
 
-# 👩‍💻 Author
-Rabiya Tahseen
-B.Tech CSE Student
