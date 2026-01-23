@@ -1,1 +1,1 @@
-This folder contains screenshots of the project workflow and outputs.
+# This folder contains screenshots of the project workflow and outputs.
